@@ -2,8 +2,8 @@
 
 body {
 	background: #FBF3EE;
-	color: #96918E;
-	font-family: 'Lora ', serif;
+	color: #414743;
+	font-family: 'Lora', serif;
 	font-size: 18px;
 }
 
@@ -23,11 +23,16 @@ h1{
 
 h2{
 	color: #202020;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 600;
 }
 
-
+h3{
+	font-family: 'Lora', serif;
+	color: #414743;
+	font-weight: lighter;
+	font-size: 18px;
+}
 a {
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
@@ -36,7 +41,8 @@ a {
 }
 
 a:hover {
-	color: #96918E;
+	background-color: #ABC7B4;
+	color: white;
 }
 
 /*Custom design with class*/
@@ -85,8 +91,8 @@ a:hover {
 	border-radius: 4px;
 }
 
-.btn-blue:hover {
-	background-color: #749D82;
+.btn-blue: hover {
+	background-color: #ABC7B4;
 	color: white;
 }
 
@@ -102,11 +108,11 @@ a:hover {
 
 .list-inline i {
 	font-size: 50px;
-	color: rgb(230, 230, 230);
+	color: #528563;
 }
 
 .list-inline i:hover {
-	color: black;
+	color: #ABC7B4;
 }
 
 /* Design adjustements with id*/
@@ -114,7 +120,3 @@ a:hover {
 #introduction p {
 	margin-bottom: 40px;
 }
-
-
-
-
